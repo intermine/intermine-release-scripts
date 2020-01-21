@@ -5,7 +5,7 @@ import json
 
 issues = {}
 
-response = requests.get('https://api.github.com/repos/intermine/intermine/issues?direction=asc&state=all&milestone=48&per_page=1000')
+response = requests.get('https://api.github.com/repos/intermine/intermine/issues?direction=asc&state=all&milestone=51&per_page=1000')
 
 issues = response.json()
 for issue in issues:
